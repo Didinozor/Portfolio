@@ -84,7 +84,7 @@ export default function AboutMe() {
               </Typography>
               <Typography variant="body1" gutterBottom>
                 I really enjoy photography, especially when it involves
-                capturing the beauty of the night sky. It’s a hobby that allows
+                capturing the beauty of the night sky. It is a hobby that allows
                 me to relax and spend quality time with myself, clearing my mind
                 of daily stress. The process of setting up the equipment,
                 adjusting the settings, and waiting for the perfect shot teaches
@@ -121,15 +121,16 @@ export default function AboutMe() {
                 <br />
                 It is relaxing because I find myself in a calm environment and,
                 most importantly, with myself. This helps me focus and try to
-                improve in this area, as it’s not easy to copy what you see when
-                using a reference because you are often not as experience as the
-                author. However, it is also challenging because it teaches me to
-                persevere and become even better in something I truly love.
+                improve in this area, as it is not easy to copy what you see
+                when using a reference because you are often not as experience
+                as the author. However, it is also challenging because it
+                teaches me to persevere and become even better in something I
+                truly love.
                 <br />
                 <br />
                 Also, when I start to lose focus in a situation where I need to
                 concentrate a lot, drawing small sketches on a piece of paper
-                helps me stay focused. It is a manual activity that doesn’t
+                helps me stay focused. It is a manual activity that does not
                 require much listening, which allows me to keep paying attention
                 and quickly regain my concentration in that situation.
               </Typography>
@@ -153,11 +154,11 @@ export default function AboutMe() {
                 My biggest hobby is playing video games, especially games that
                 require long-term commitment like Warframe, an action
                 role-playing third-person shooter multiplayer online game. I
-                really enjoy these games because I can achieve a goal, I've set
-                myself, by going step by step in a daily basis, without rushing.
-                This teaches me that projects cannot be rushed, that I must be
-                consistent with the work I produce for me to not be disgusted
-                with the project.
+                really enjoy these games because I can achieve a goal, I have
+                set myself, by going step by step in a daily basis, without
+                rushing. This teaches me that projects cannot be rushed, that I
+                must be consistent with the work I produce for me to not be
+                disgusted with the project.
                 <br />
                 <br />I also like to play games that require perseverance, like
                 Geometry Dash or Elden Ring, because it is a real challenge to
@@ -201,14 +202,14 @@ export default function AboutMe() {
                 Adaptable
               </Typography>
               <Typography variant="body1" gutterBottom>
-                If I am asked to work on a project with a technology I've never
-                used before, I will not give up, I will do some online research
-                to find out more. In my second-year project, I had to work with
-                a stepper motor, which I'd never used before, and I encountered
-                many problems. I went to school three times a week during the
-                holidays to overcome my problems, which was done quickly. As a
-                result, the part of the project that used the stepper motor
-                worked properly without any flaws.
+                If I am asked to work on a project with a technology I have
+                never used before, I will not give up, I will do some online
+                research to find out more. In my second-year project, I had to
+                work with a stepper motor, which I had never used before, and I
+                encountered many problems. I went to school three times a week
+                during the holidays to overcome my problems, which was done
+                quickly. As a result, the part of the project that used the
+                stepper motor worked properly without any flaws.
               </Typography>
             </Box>
           </HobbyBox>
@@ -228,7 +229,7 @@ export default function AboutMe() {
               </Typography>
               <Typography variant="body1" gutterBottom>
                 During a big task or project, I will work hard to achieve the
-                goal of the project. As I've already mentioned, during my
+                goal of the project. As I have already mentioned, during my
                 project in the second year, I often came to school for several
                 weeks to finish what I had been assigned. My team members were
                 counting on me, so I felt that I could give my full attention to
@@ -251,7 +252,7 @@ export default function AboutMe() {
                 Compassionate
               </Typography>
               <Typography variant="body1" gutterBottom>
-                If I am in a group with other people and one of them doesn't do
+                If I am in a group with other people and one of them does not do
                 enough work, I will not immediately talk behind his back and
                 judge him. I will try to understand the meaning of his poor work
                 and help him in his struggle.
@@ -312,11 +313,11 @@ export default function AboutMe() {
                 Procrastination
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Although I've learnt the importance of starting projects early,
-                I still sometimes procrastinate, which leaves me with less time
-                for development. However, this helps me to learn to work under
-                pressure as the deadline approaches. It is a weakness that I am
-                actively working on.
+                Although I have learnt the importance of starting projects
+                early, I still sometimes procrastinate, which leaves me with
+                less time for development. However, this helps me to learn to
+                work under pressure as the deadline approaches. It is a weakness
+                that I am actively working on.
               </Typography>
             </Box>
           </HobbyBox>

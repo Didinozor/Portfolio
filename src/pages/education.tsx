@@ -75,7 +75,7 @@ export default function Education() {
                 different from the other children, except for my enjoyment of
                 going to school. I had a strong interest in attending school
                 because of the environment and the people I could meet. However,
-                it wasn’t until the fifth year of primary school that I started
+                it was not until the fifth year of primary school that I started
                 to develop an interest in science. This interest grew even more
                 during my final year, and I knew what I wanted to focus on when
                 I moved to secondary school.
@@ -120,11 +120,11 @@ export default function Education() {
             <Grid item xs={12} md={8}>
               <Typography variant="body1" gutterBottom>
                 In the early years of secondary school, I believed I was on the
-                right path, but then I realised I wasn’t. My interest in science
-                didn’t grow, and I started to hate school. The reason was that
-                the teachers and other students were unkind to me, and I felt
-                that school wasn’t for me. However, the science course also
-                included a bit of computer science, and I really enjoyed it
+                right path, but then I realised I was not. My interest in
+                science did not grow, and I started to hate school. The reason
+                was that the teachers and other students were unkind to me, and
+                I felt that school was not for me. However, the science course
+                also included a bit of computer science, and I really enjoyed it
                 because, in my free time, I had developed a strong interest in
                 computers and programming, watching several videos to understand
                 how they work. A new opportunity opened for me, and I knew I had

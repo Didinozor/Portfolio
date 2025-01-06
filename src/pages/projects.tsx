@@ -80,17 +80,18 @@ export default function Projects() {
             </Grid>
             <Grid item xs={12} md={8}>
               <Typography variant="body1" gutterBottom>
-                First of all, it was the first group project that I've ever had
-                to work on, and it was a really challenging. As it was my first
-                year at a university college, I didn't have much knowledge about
-                electronics and programming in C, and I had to face a big
-                problem. The project was to develop a program in C language that
-                had to be connected to a circuit using a communication card. The
-                goal of the project was to count how many times an object passed
-                in front of a sensor, in this case a photoresistor, and to
-                display this count on two 7-segment displays. Furthermore, the
-                counter value had to range from 0 to 19, with the user being
-                able to choose between incrementing and decrementing.
+                First of all, it was the first group project that I have ever
+                had to work on, and it was a really challenging. As it was my
+                first year at a university college, I did not have much
+                knowledge about electronics and programming in C, and I had to
+                face a big problem. The project was to develop a program in C
+                language that had to be connected to a circuit using a
+                communication card. The goal of the project was to count how
+                many times an object passed in front of a sensor, in this case a
+                photoresistor, and to display this count on two 7-segment
+                displays. Furthermore, the counter value had to range from 0 to
+                19, with the user being able to choose between incrementing and
+                decrementing.
                 <br />
                 <br />
                 Then, the first problem was to understand the given schematic,
@@ -104,13 +105,13 @@ export default function Projects() {
                 Finally, I had to understand how the communications card worked,
                 which was also complicated. There was documentation which proved
                 to be very useful because a certain file had to be installed for
-                the card to work with the computer. Afterwards, the card's
+                the card to work with the computer. Afterwards, the card&apos;s
                 functions had to be integrated into our code to ensure
                 communication between the circuit and the program. The program
-                would read the sensor's status as an input to determine whether
-                an object had passed in front of it. If an object was detected,
-                the outputs would be activated to display the count on the
-                7-segment displays.
+                would read the sensor&apos;s status as an input to determine
+                whether an object had passed in front of it. If an object was
+                detected, the outputs would be activated to display the count on
+                the 7-segment displays.
               </Typography>
             </Grid>
           </Grid>
@@ -169,8 +170,8 @@ export default function Projects() {
                 color sensor because it was easier to use, more accurate, and
                 simpler to install. I calibrated the camera by teaching it the
                 colors to recognize and storing them in its database. The
-                Arduino code then matched the color IDs to those in the camera’s
-                database.
+                Arduino code then matched the color IDs to those in the
+                camera&apos;s database.
                 <br />
                 <br />
                 Finally, I developed a website using Next.js to display the
