@@ -45,7 +45,7 @@ export default function Education() {
             gutterBottom
             style={{ marginBottom: "3rem" }}
           >
-            Primary School: École de l'yser
+            Primary School: École de l&apos;yser
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} md={4}>
@@ -66,7 +66,7 @@ export default function Education() {
                 textAlign="center"
                 mt={1}
               >
-                Figure 1 - École de l'yser
+                Figure 1 - École de l&apos;yser
               </Typography>
             </Grid>
             <Grid item xs={12} md={8}>

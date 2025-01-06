@@ -1,13 +1,9 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import {
   Box,
   Card,
-  CardActionArea,
   CardContent,
   Container,
-  Link,
   Typography,
-  Avatar,
   Button,
 } from "@mui/material";
 import { styled } from "@mui/system";

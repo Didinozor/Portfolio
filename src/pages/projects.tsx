@@ -1,17 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import { Box, Card, CardContent, Container, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import Grid from "@mui/material/Grid";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const StyledContainer = styled(Container)({
   display: "flex",
