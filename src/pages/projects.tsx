@@ -135,7 +135,8 @@ export default function Projects() {
                 textAlign="center"
                 mt={1}
               >
-                Figure 2 - Second-year multidisciplinary project's structure
+                Figure 2 - Second-year multidisciplinary project&apos;s
+                structure
               </Typography>
             </Grid>
             <Grid item xs={12} md={8}>
