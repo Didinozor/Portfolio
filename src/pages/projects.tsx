@@ -38,7 +38,12 @@ export default function Projects() {
     <StyledContainer maxWidth="lg" sx={{ mt: 10 }}>
       <Typography
         variant="h2"
-        sx={{ fontWeight: "bold", textAlign: "center", marginBottom: "1rem" }}
+        sx={{
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "2rem",
+          color: "#2C3E50",
+        }}
       >
         My Projects
       </Typography>
@@ -262,7 +267,8 @@ export default function Projects() {
                 textAlign="center"
                 mt={1}
               >
-                Figure 4 - Tech Goes Wilds Hackathon
+                Figure 4 - Block shcematic of the third-year multidisciplinary
+                project
               </Typography>
             </Grid>
             <Grid item xs={12} md={8}>

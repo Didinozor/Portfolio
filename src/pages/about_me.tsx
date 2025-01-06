@@ -9,6 +9,7 @@ import {
   IoIosHeart,
   IoIosPerson,
   IoMdTimer,
+  IoMdShuffle,
 } from "react-icons/io";
 
 const StyledContainer = styled(Container)({
@@ -158,15 +159,15 @@ export default function AboutMe() {
                 consistent with the work I produce for me to not be disgusted
                 with the project.
                 <br />
-                <br />I also like to play rhythm games, especially Geometry
-                Dash, because it is a real challenge to try and complete a level
-                without losing your nerve. As a result, I have learnt that I
-                need to be persistent if I want to see results, not only in
-                video games but also in real life, because a project will never
-                be easy, there will always be new technologies to explore and
-                learn. Most importantly, I have learnt to keep myself calm and
-                not to be on my nerve as it will never resulting on a good
-                production!
+                <br />I also like to play games that require perseverance, like
+                Geometry Dash or Elden Ring, because it is a real challenge to
+                try and complete a level or fight a boss without losing your
+                nerve. As a result, I have learnt that I need to be persistent
+                if I want to see results, not only in video games but also in
+                real life, because a project will never be easy, there will
+                always be new technologies to explore and learn. Most
+                importantly, I have learnt to keep myself calm and not to be on
+                my nerve as it will never resulting on a good production!
               </Typography>
             </Box>
           </HobbyBox>
@@ -275,7 +276,7 @@ export default function AboutMe() {
       >
         My Flaws
       </Typography>
-      {/* Adaptable Card */}
+      {/* Shyness Card */}
       <StyledCard>
         <CardContent>
           <HobbyBox>
@@ -299,7 +300,7 @@ export default function AboutMe() {
         </CardContent>
       </StyledCard>
 
-      {/* Hard-Working Card */}
+      {/* Procrastination Card */}
       <StyledCard>
         <CardContent>
           <HobbyBox>
@@ -316,6 +317,30 @@ export default function AboutMe() {
                 for development. However, this helps me to learn to work under
                 pressure as the deadline approaches. It is a weakness that I am
                 actively working on.
+              </Typography>
+            </Box>
+          </HobbyBox>
+        </CardContent>
+      </StyledCard>
+
+      {/* Poor Organization Card */}
+      <StyledCard>
+        <CardContent>
+          <HobbyBox>
+            <HobbyIcon>
+              <IoMdShuffle />
+            </HobbyIcon>
+            <Box>
+              <Typography variant="h5" gutterBottom>
+                Poor Organization
+              </Typography>
+              <Typography variant="body1" gutterBottom>
+                This is related to my procrastination. As a result of it, I find
+                myself facing much more work in a much shorter amount of time,
+                so I often start several tasks at once. I do not plan anything
+                in advance, which leads to a big pile of work. Nevertheless,
+                this adds pressure, and I am learning to work with it. In the
+                end, I manage to produce a finished product.
               </Typography>
             </Box>
           </HobbyBox>

@@ -27,7 +27,12 @@ export default function Education() {
     <StyledContainer maxWidth="lg" sx={{ mt: 10 }}>
       <Typography
         variant="h2"
-        sx={{ fontWeight: "bold", textAlign: "center", marginBottom: "1rem" }}
+        sx={{
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "2rem",
+          color: "#2C3E50",
+        }}
       >
         EDUCATION
       </Typography>
@@ -219,6 +224,68 @@ export default function Education() {
                 say I am a fairly good student, as I have earned all my credits
                 and, so far, have never failed a year. I have also gained a lot
                 of experience in teamwork, which is essential in the industry.
+              </Typography>
+            </Grid>
+          </Grid>
+        </CardContent>
+      </StyledCard>
+
+      {/* Certifications */}
+      <StyledCard>
+        <CardContent>
+          <Typography
+            variant="h4"
+            gutterBottom
+            style={{ marginBottom: "3rem" }}
+          >
+            My certifications
+          </Typography>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <Box
+                component="img"
+                src="/certif1.png"
+                alt="Instrumentation and regulation"
+                sx={{
+                  width: "75%",
+                  borderRadius: "8px",
+                  marginBottom: "2rem",
+                  display: "flex",
+                  justifyContent: "center",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Typography
+                variant="caption"
+                display="block"
+                textAlign="center"
+                mt={1}
+              >
+                Figure 5 - Instrumentation and regulation
+              </Typography>
+            </Grid>
+            <Grid item xs={12}>
+              <Box
+                component="img"
+                src="/certif2.png"
+                alt="Schneider Electric network management"
+                sx={{
+                  width: "75%",
+                  borderRadius: "8px",
+                  display: "flex",
+                  justifyContent: "center",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Typography
+                variant="caption"
+                display="block"
+                textAlign="center"
+                mt={1}
+              >
+                Figure 6 - Schneider Electric network management
               </Typography>
             </Grid>
           </Grid>

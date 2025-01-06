@@ -8,6 +8,7 @@ import {
   Link,
   Typography,
   Avatar,
+  Button,
 } from "@mui/material";
 import { styled } from "@mui/system";
 import Grid from "@mui/material/Grid";
@@ -51,14 +52,15 @@ export default function Home() {
             variant="h2"
             sx={{
               fontWeight: "bold",
-              marginTop: "1rem",
-              marginBottom: "1rem",
+              textAlign: "center",
+              marginBottom: "2rem",
+              color: "#2C3E50",
             }}
           >
             Diego Napolitano
           </Typography>
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={12} md={8} mb={10}>
           <StyledCard sx={{ maxWidth: "100%" }}>
             <Typography
               variant="h4"
@@ -71,43 +73,64 @@ export default function Home() {
               projects.
               <br />
             </Typography>
-            <Typography variant="body1" sx={{ textAlign: "center" }}>
+            <Typography variant="body1" sx={{ textAlign: "center", mb: 2 }}>
               Here, you will find examples of my work that showcase my
               dedication to innovation, problem-solving, and the application of
               technologies to real-world challenges.
             </Typography>
+            <Button
+              variant="contained"
+              color="primary"
+              href="/Diego_Napolitano_CV.pdf"
+              sx={{ display: "flex", justifyContent: "center" }}
+              download
+            >
+              Download CV
+            </Button>
           </StyledCard>
         </Grid>
-        <Typography
-          variant="h3"
-          sx={{
-            textAlign: "center",
-            marginTop: "2rem",
-            fontWeight: "bold",
-          }}
-        >
-          Internship
-        </Typography>
-        <Typography>
-          I am currently doing a 15-week internship at Tpcontrol, a company
-          specialising in automation. I will be working on the development of a
-          library of templates, dashboards and a deployment methodology called
-          Zabbix, focusing on the monitoring of industrial and IT equipment.
-          This project will involve defining the methodology and architecture,
-          comparing Docker and bare-metal setups, and configuring Zabbix,
-          including database selection and agent installation. I will also
-          configure SNMP in industrial equipment and create Zabbix templates
-          with items, triggers and graphs. I will also develop dynamic
-          dashboards, implement security enhancements and manage the deployment
-          process.
-        </Typography>
+        <Grid item xs={12} sx={{ textAlign: "center", marginTop: "2rem" }}>
+          <Typography
+            variant="h3"
+            sx={{
+              fontWeight: "bold",
+              textAlign: "center",
+              marginBottom: "2rem",
+              color: "#2C3E50",
+            }}
+          >
+            Internship
+          </Typography>
+          <Typography
+            variant="body1"
+            sx={{
+              marginTop: "1rem",
+              textAlign: "center",
+              maxWidth: "800px",
+              margin: "0 auto",
+            }}
+          >
+            I am currently doing a 15-week internship at Tpcontrol, a company
+            specialising in automation. I will be working on the development of
+            a library of templates, dashboards and a deployment methodology
+            called Zabbix, focusing on the monitoring of industrial and IT
+            equipment. This project will involve defining the methodology and
+            architecture, comparing Docker and bare-metal setups, and
+            configuring Zabbix, including database selection and agent
+            installation. I will also configure SNMP in industrial equipment and
+            create Zabbix templates with items, triggers and graphs. I will also
+            develop dynamic dashboards, implement security enhancements and
+            manage the deployment process.
+          </Typography>
+        </Grid>
         <Grid item xs={12} mt={10}>
           <Typography
             variant="h3"
             sx={{
-              textAlign: "center",
-              marginTop: "2rem",
               fontWeight: "bold",
+              textAlign: "center",
+              marginBottom: "2rem",
+              color: "#2C3E50",
             }}
           >
             Skills
@@ -182,7 +205,7 @@ export default function Home() {
                         gutterBottom
                         textAlign="justify"
                       >
-                        This is the most recent language I learned at school, so
+                        This is the most recent language I learnt at school, so
                         I have less experience with it. However, this does not
                         mean I cannot work with it. In fact, as it is a
                         straightforward programming language and I have a solid
@@ -266,7 +289,7 @@ export default function Home() {
                         textAlign="justify"
                       >
                         From secondary school to University College, I have
-                        learned how to develop websites using various frameworks
+                        learnt how to develop websites using various frameworks
                         and libraries, such as Next.js, React, Bootstrap, and
                         T3-App. I have also gained experience in JavaScript,
                         HTML, and CSS, all of which are essential for creating
