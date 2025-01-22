@@ -106,12 +106,12 @@ export default function Home() {
               margin: "0 auto",
             }}
           >
-            I am currently doing a 15-week internship at Tpcontrol, a company
-            specialising in automation. I will be working on the development of
-            a library of templates, dashboards and a deployment methodology
-            called Zabbix, focusing on the monitoring of industrial and IT
-            equipment. This project will involve defining the methodology and
-            architecture, comparing Docker and bare-metal setups, and
+            I am currently enrolled in a 15-week internship at Tpcontrol, a
+            company specialising in automation. I will be working on the
+            development of a library of templates, dashboards and a deployment
+            methodology called Zabbix, focusing on the monitoring of industrial
+            and IT equipment. This project will involve defining the methodology
+            and architecture, comparing Docker and bare-metal setups, and
             configuring Zabbix, including database selection and agent
             installation. I will also configure SNMP in industrial equipment and
             create Zabbix templates with items, triggers and graphs. I will also
