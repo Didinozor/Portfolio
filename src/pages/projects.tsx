@@ -323,7 +323,7 @@ export default function Projects() {
                 textAlign="center"
                 mt={1}
               >
-                Figure 45 - Tech Goes Wilds Hackathon
+                Figure 5 - Tech Goes Wilds Hackathon
               </Typography>
             </Grid>
             <Grid item xs={12} md={8}>
